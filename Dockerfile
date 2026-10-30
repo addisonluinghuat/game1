@@ -6,4 +6,4 @@ WORKDIR /app
 
 # Run the Godot dedicated server in headless mode
 # Ensure your script or command uses the $PORT env if applicable, or a default port
-CMD ["godot", "--headless", "--main-pack", "your_server.pck"]
+CMD ["godot", "--headless", "--main-pack", "game.pck"]
